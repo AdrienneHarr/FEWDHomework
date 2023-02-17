@@ -10,11 +10,11 @@ You've been asked to make the navigation fully responsive for the site you have 
 
 ###Requirements
 
-* Add the viewport meta tag <meta name="viewport" content="width=device-width, initial-scale=1">
-* The nav should be on the right edge at the largest size
-* When the screen is between 640px and 800px, the nav should stay horizontal but move below the "Startup Matchmaker"
-* When the screen is LESS than 640px, the nav should hide and instead a hamburger-style toggle should show
-* When the hamburger is clicked, show the navigation if it isn't showing, hide it if it is showing
+* Add the viewport meta tag <meta name="viewport" content="width=device-width, initial-scale=1"> (DONE)
+* The nav should be on the right edge at the largest size (DONE)
+* When the screen is between 640px and 800px, the nav should stay horizontal but move below the "Startup Matchmaker" (DONE)
+* When the screen is LESS than 640px, the nav should hide and instead a hamburger-style toggle should show (DONE)
+* When the hamburger is clicked, show the navigation if it isn't showing, hide it if it is showing (DONE)
 
 
 ###Hints

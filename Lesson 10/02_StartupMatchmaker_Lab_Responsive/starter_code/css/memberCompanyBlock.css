@@ -6,6 +6,7 @@
     max-width: 100%;
     overflow: hidden;
     margin-top: 20px;
+    margin-bottom: 20px;
     display:flex;
     flex-wrap: wrap;
 }
@@ -36,7 +37,24 @@
 .memberCompanyLogoHaus > img {
     max-width: 90%;
     margin: 0 auto;
+   
 }
+
+@media (max-width: 768px){
+
+    .memberCompanyLogoHaus {
+        width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .memberCompanyLogoHaus > img {
+        max-width: 35%;
+    }
+}
+
+
 
 
 .memberCompanySkills {
@@ -49,6 +67,18 @@
     flex-basis:35%;
     width: 35%;
     overflow: hidden;
+}
+
+@media (max-width: 768px){
+    .memberCompanySkills {
+        width: 50%;
+        flex-basis: 50%;
+    }
+
+    .memberCompanyLocation {
+        width: 50%;
+        flex-basis: 50%;
+    }
 }
 
 .memberCompanySkills h2, .memberCompanyLocation h2, .memberCompanyDesc h2 {
