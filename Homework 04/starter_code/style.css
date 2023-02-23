@@ -135,11 +135,12 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+  max-width: 800px;
 }
 
 .level-header__title,
 .level-header__score {
-  /* width: 40%; */
+
 }
 
 .level-header h2,
