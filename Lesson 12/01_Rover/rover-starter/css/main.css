@@ -28,3 +28,137 @@ body {
   width:100%;
   overflow-x:hidden;
 }
+
+/* ****** Rover Header ****** */
+
+ .container_fixed {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site_header img {
+  width: 150px;
+}
+
+.site_header_inner {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navigation_first {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 24px;
+  gap: 8px;
+}
+
+.navigation .navigation_first {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.navigation .sign_up {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+
+.sign_up {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 24px;
+  gap: 8px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+
+.logo {
+  
+}
+
+
+
+/* ****** Rover Hero Container (Fluid) ****** */
+
+.rover_hero_container {
+  background:url("../img/hero.jpg") no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rover_hero_container .container_fixed {
+  display: flex;
+  justify-content: left;
+}
+
+.hero_callout {
+  display: block;
+  text-align: left;
+}
+
+
+
+/* ****** Rover Facts Container ****** */
+.rover_facts_2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rover_facts_container ul {
+  list-style: none;
+}
+
+.rover_facts_container li {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+
+/* ****** Rover action ****** */
+
+
+
+
+/* ****** Rover 1-2-3 Container ****** */
+
+.section_hdr {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 64px;
+  margin-top: 64px;
+}
+
+.rover_123_item_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  text-align: center;
+  gap: 32px;
+  align-items: center;
+}
+
+.rover_123_item {
+  align-items: center;
+  text-align: center;
+}
+
+.rover_123_item img {
+  height: 100px;
+}
