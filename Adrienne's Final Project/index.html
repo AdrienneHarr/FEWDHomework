@@ -3,36 +3,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NewsFlash | Home</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <title>Aesthetic Living | Home</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logo-no-background.png">
     <!-- Remix icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Swiper.js styles -->
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/cph0ugo.css">
     <!-- Custom styles -->
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-    <!-- Header -->
 
-    <!-- Search -->
+   <!-- ******* Header/Nav ******* -->
+   <header class="header" id="header">
 
-    <!-- Featured articles -->
+    <nav class="navbar container">
+        <a href="./index.html">
+        <img class="al-logo" src="./assets/images/logo-no-background.png" alt="Aesthetic Living logo">
+        </a>
+        <div class="menu" id="menu">
+            <ul class="list">
+                <li class="list-item">
+                    <a href="#" class="list-link current">Lifestyle + Wellness</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Home + Outdoor Living</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Organization + Storage</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Health + Beauty</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Aesthetic Living+</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Create</a>
+                </li>
+                <li class="list-item screen-lg-hidden">
+                    <a href="./signin.html" class="list-link">Sign in</a>
+                </li>
+                <li class="list-item screen-lg-hidden">
+                    <a href="./signup.html" class="list-link">Sign up</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="list list-right">
+            <button class="btn place-items-center" id="theme-toggle-btn">
+                <i class="ri-sun-line sun-icon"></i>
+                <i class="ri-moon-line moon-icon"></i>
+            </button>
+
+            <button class="btn place-items-center" id="search-icon">
+                <i class="ri-search-line"></i>
+            </button>
+
+            <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                <i class="ri-menu-3-line open-menu-icon"></i>
+                <i class="ri-close-line close-menu-icon"></i>
+            </button>
+
+            <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+            <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                <span>Sign up</span>
+            </a>
+        </div>
+
+    </nav>
+
+</header>
+
+    <!-- ******* Search ******* -->
+
+<div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What's on your mind?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- ******* Hero Section ******* -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- ******* Featured articles ******* -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Trending topics</span>
+                    </h3>
+                    <span class="headline-description">Spring cleaning inside and out. <a href="#">10 steps to cleansing your life!</a></span>
+                </div>
+                
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured 1.jpg" alt="" class="article-image">
+                    <span class="article-category">Lifestyle + Wellness</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 5th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Is VR the future?</h3>
+
+                    </div>
+                </a>    
+
+    <!-- ******* Quick read ******* -->
+
+    <!-- ******* Older posts ******* -->
     
-    <!-- Quick read -->
+    <!-- ******* Popular tags ******* -->
 
-    <!-- Older posts -->
+    <!-- ******* Newsletter ******* -->
     
-    <!-- Popular tags -->
+    <!-- ******* Footer ******* -->
 
-    <!-- Newsletter -->
-    
-    <!-- Footer -->
-
-    <!-- Swiper.js -->
+    <!-- ******* Swiper.js ******* -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
-    <!-- Custom script -->
+    <!-- ******* Custom script ******* -->
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
