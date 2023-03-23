@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Swiper.js styles -->
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Font -->
     <link rel="stylesheet" href="https://use.typekit.net/cph0ugo.css">
     <!-- Custom styles -->
@@ -26,22 +28,19 @@
         <div class="menu" id="menu">
             <ul class="list">
                 <li class="list-item">
-                    <a href="#" class="list-link current">Lifestyle + Wellness</a>
+                    <a href="#" class="list-link current">Home</a>
                 </li>
                 <li class="list-item">
-                    <a href="#" class="list-link">Home + Outdoor Living</a>
+                    <a href="#" class="list-link">Categories</a>
                 </li>
                 <li class="list-item">
-                    <a href="#" class="list-link">Organization + Storage</a>
-                </li>
-                <li class="list-item">
-                    <a href="#" class="list-link">Health + Beauty</a>
+                    <a href="#" class="list-link">Explore</a>
                 </li>
                 <li class="list-item">
                     <a href="#" class="list-link">Aesthetic Living+</a>
                 </li>
                 <li class="list-item">
-                    <a href="#" class="list-link">Create</a>
+                    <a href="#" class="list-link">Create a Post</a>
                 </li>
                 <li class="list-item screen-lg-hidden">
                     <a href="./signin.html" class="list-link">Sign in</a>
@@ -77,12 +76,20 @@
 
 </header>
 
+<!-- ******* Hero Section ******* -->
+<div class="al-hero">
+    <video muted autoplay loop>
+        <source src="./assets/images/Hero/hero.mp4" type="video/mp4">
+    </video>
+<div class="al-hero-content">
+    <h1 class="al-heading">Aesthetic Living</h1>
+    <h2 class="al-subtitle">Creating your aesthetic and living it authentically!</h2>
+    </div>  
+</div>
+
     <!-- ******* Search ******* -->
-
 <div class="search-form-container container" id="search-form-container">
-
         <div class="form-container-inner">
-
             <form action="" class="form">
                 <input class="form-input" type="text" placeholder="What's on your mind?">
                 <button class="btn form-btn" type="submit">
@@ -90,7 +97,6 @@
                 </button>
             </form>
             <span class="form-note">Or press ESC to close.</span>
-
         </div>
 
         <button class="btn form-close-btn place-items-center" id="form-close-btn">
@@ -98,34 +104,6 @@
         </button>
 
     </div>
-
-    <!-- ******* Hero Section ******* -->
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
 
     <!-- ******* Featured articles ******* -->
     <section class="featured-articles section section-header-offset">
@@ -148,29 +126,574 @@
                     <div class="article-data-container">
 
                         <div class="article-data">
-                            <span>Dec 5th 2021</span>
+                            <span>Jan 5th 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>8 Min read</span>
                         </div>
 
-                        <h3 class="title article-title">Is VR the future?</h3>
+                        <h3 class="title article-title">Morning routines to increase your productivity</h3>
 
                     </div>
                 </a>    
 
+                <a href="./post.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/featured 2.jpg" alt="" class="article-image">
+                    <span class="article-category">Lifestyle + Wellness</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Feb 6th 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Loving authentically in all your relationships</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-3">
+                    <img src="./assets/images/featured/featured 3.jpg" alt="" class="article-image">
+                    <span class="article-category">Health + Beauty</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Feb 9th 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Breathing techniques to help you take control</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Popular posts</h3>
+
+                <a href="#" class="popular-posts-box">
+                    <div class="popular-posts-img-box">
+                        <span class="post-number place-items-center">01</span>
+                        <img src="./assets/images/popular posts/popular 1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="popular-posts-data">
+
+                        <div class="article-data">
+                            <span>Feb 17 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Small apartment? No problem!</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="popular-posts-box">
+                    <div class="popular-posts-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/popular posts/popular 2.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="popular-posts-data">
+
+                        <div class="article-data">
+                            <span>Feb 17 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Keeping clutter out of your kitchen</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="popular-posts-box">
+                    <div class="popular-posts-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/popular posts/popular 3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="popular-posts-data">
+
+                        <div class="article-data">
+                            <span>Feb 17 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Family meals everyone will enjoy</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="popular-posts-box">
+                    <div class="popular-posts-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/popular posts/popular 4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="popular-posts-data">
+
+                        <div class="article-data">
+                            <span>Feb 17 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Unique activities your girl group hasn't thought of</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="popular-posts-box">
+                    <div class="popular-posts-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/popular posts/popular 5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="popular-posts-data">
+
+                        <div class="article-data">
+                            <span>Feb 17 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Breaking into tech: Today's hottest careers</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+            
     <!-- ******* Quick read ******* -->
+    <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick read/quick read 1.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>Dec 23 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Making memorable moments everywhere</h3>
+                        </div>
+                    </a>
+                   
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick read/quick read 2.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>Dec 23 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">How laughing more can improve your mental health</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick read/quick read 3.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>Dec 23 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">On the road to burnout? How to get off at the nearest exit</h3>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick read/quick read 4.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>Dec 23 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Exercise favorites to refresh your workout routine</h3>
+                        </div>
+                    </a>
+                   
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick read/quick read 5.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>Dec 23 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Lowkey travel destinations with highkey cultures</h3>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick read/quick read 6.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>Dec 23 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Planning your big day with you in mind</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
 
     <!-- ******* Older posts ******* -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older posts/older posts 1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Nov 11 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older posts/older posts 2.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older posts/older posts 3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older posts/older posts 4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older posts/older posts 5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older posts/older posts 6.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
     
-    <!-- ******* Popular tags ******* -->
+    <!-- ******* Categories ******* -->
+    <section class="categories section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Categories">Categories</h2>
+
+            <div class="categories-container d-grid">
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Travel</span>
+                    <img src="./assets/images/categories/travel tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Health</span>
+                    <img src="./assets/images/categories/health tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Technology</span>
+                    <img src="./assets/images/categories/technology tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Beauty</span>
+                    <img src="./assets/images/categories/beauty tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Lifestyle</span>
+                    <img src="./assets/images/categories/lifestyle tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Wellness</span>
+                    <img src="./assets/images/categories/wellness tag.jpg" alt="" class="article-image">
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">See all<i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+    </section>
 
     <!-- ******* Newsletter ******* -->
-    
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Subscribe to Aesthetic Living</h6>
+                <p class="newsletter-description">Stay in the know on new posts and trending topics</p>
+
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="Enter your email address">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
     <!-- ******* Footer ******* -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                        <img class="al-logo" src="./assets/images/logo-no-background.png" alt="Aesthetic Living logo">
+                </a>
+                <p class="company-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores, nam, ad magni expedita.</p>
+                
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;2023 Aesthetic Living. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Beauty</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Lifestyle</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Wellness</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Aesthetic Living+</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Help</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Terms & Conditions</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">About us</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        
+    </footer>
 
     <!-- ******* Swiper.js ******* -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <!-- ******* Custom script ******* -->
     <script src="./assets/js/main.js"></script>
+    <!-- ******* Bootstrap ******* -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
